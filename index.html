@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiv Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="reload-sound" src="game-music.mp3" autoplay ></audio>
+    <nav>
+        <ul>
+            <li>MyTicTacToe.com</li>
+        </ul>
+    </nav>
+    <h1 class="h1">Welcome to tic tac toe</h1>
+    <div class="game-container">
+        <div class="container ">
+            <div class="box BL-0 BT-0"><span class="boxtext"></span></div>
+            <div class="box BT-0"><span class="boxtext"></span></div>
+            <div class="box BT-0 BR-0"><span class="boxtext"></span></div>
+            <div class="box BL-0"><span class="boxtext"></span></div>
+            <div class="box "><span class="boxtext"></span></div>
+            <div class="box BR-0"><span class="boxtext"></span></div>
+            <div class="box BL-0 BB-0"><span class="boxtext"></span></div>
+            <div class="box BB-0"><span class="boxtext"></span></div>
+            <div class="box BR-0 BB-0"><span class="boxtext"></span></div>
+        </div>
+
+        <div class="gameinfo">
+            <div class="infodisplay">
+                <span class="info">
+                    Turn for X
+                </span>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="imgbox">
+                <img src="winner.gif" alt=" ">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
