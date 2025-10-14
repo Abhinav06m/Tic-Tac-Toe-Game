@@ -16,6 +16,6 @@ The playera will have to choose there own signs( cross/circle ) according to the
 If any player manages to make a straight line of their sign in any row/column or in any diagonals(top left to right bottom / top right to left bottom) will win the game.
 players will be able to reset the game at any instance of the game (whether one player has won or thr game is a tie or in the middle of the game) its all upto them.
 
-This gaame is designed so that friends can enjiy there free time together and have fun.
+This game is designed so that friends can enjiy there free time together and have fun.
 
 #### Note: This is not online yet so players can play the game on one device, they can't play the game from two different devices to play with each other from two different positions.
