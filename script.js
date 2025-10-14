@@ -1,16 +1,4 @@
 console.log("welcome to Tic Tac Toe")
-const music = document.getElementById("reload-sound");
-window.playReloadSound = function () {
-    music.loop = true;
-    music.load();
-
-    music.play().catch(error => {
-        // Handle potential error if the browser still blocks it
-        console.log("Autoplay failed (this is normal for music with audio on load).", error);
-    });
-}
-window.addEventListener("load", playReloadSound);
-
 let audioTurn = new Audio("click-sound.mp3")
 let hurray = new Audio("celebration.mp3")
 let gameover = new Audio("game-over-voice.mp3")
@@ -99,9 +87,4 @@ reset.addEventListener('click', () => {
     document.getElementsByClassName("info")[0].innerText = "Turn for " + turn;
     document.querySelector('.winbox').getElementsByTagName('img')[0].style.width = "0px";
     document.querySelector('.drawbox').getElementsByTagName('img')[0].style.width = "0px";
-
-    if (music.muted) {
-        music.muted = false;
-    }
-    music.play();
 })
