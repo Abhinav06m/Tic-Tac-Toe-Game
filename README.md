@@ -5,7 +5,7 @@ This project was created to solidify my understanding of [html, css and javascri
 <img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/51157ee7-7c9f-406d-a9ab-6cb0f999736a" />
 
 ## Code Repository:
-cd [Tic-Tac-Toe-Game] 
+
 
 ### Controls
 This game is based on classic 2-Player Tic Tac Toe Game.
@@ -17,4 +17,4 @@ players will be able to reset the game at any instance of the game (whether one 
 
 This gaame is designed so that friends can enjiy there free time together and have fun.
 
-## Note: This is not online yet so players can play the game on one device, they can't play the game from two different devices to play with each other from two different positions.
+#### Note: This is not online yet so players can play the game on one device, they can't play the game from two different devices to play with each other from two different positions.
