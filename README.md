@@ -4,10 +4,11 @@ This project was created to solidify my understanding of [html, css and javascri
 
 <img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/51157ee7-7c9f-406d-a9ab-6cb0f999736a" />
 
-## Code Repository:
+#### Code Repository: 
+https://github.com/Abhinav06m/Tic-Tac-Toe-Game/tree/main
 
 
-### Controls
+## Controls
 This game is based on classic 2-Player Tic Tac Toe Game.
 ##Rules
 Two player can play this game in there free time.
